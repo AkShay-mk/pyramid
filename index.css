@@ -1,0 +1,62 @@
+.parent{
+    background-color: #f7f9fd;
+    height: 100vh;
+    width: 95vw;
+    margin-left: 10px;
+    
+   
+}
+.d1,.d2,.d3{
+    margin-left: 450px;
+   padding-top: 100px;
+}
+.d1{
+    border-bottom:200px solid #d4b817;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0;
+    position: relative;
+    z-index: 3;
+    
+}
+.d2{
+    border-bottom:200px solid rgb(204, 29, 29);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+}
+.d3{
+    border-bottom:200px solid rgb(31, 151, 51);
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    width: 0;
+    z-index: 1;
+    position: absolute;
+    top: 200px;
+}
+.d1:hover{
+    border-bottom:200px solid rgb(145, 47, 184);
+}
+.d2:hover{
+    border-bottom:200px solid rgb(47, 145, 184);
+}
+.d3:hover{
+    border-bottom:200px solid rgb(179, 31, 171);
+}
+.d4{
+    border-bottom:200px solid #4e0713;
+    
+    position: relative;
+    
+    top: 100px;
+    margin-left: 550px;
+    margin-right: 660px;
+    
+    
+}
+.parent:hover{
+background-color: #000000;
+}
